@@ -112,6 +112,9 @@ VALUES ('MATH160', 'Calculus I', 'Calculus Textbook', 3, 2);
 INSERT INTO Course (course_number, title, textbook, units, dept_number)
 VALUES ('MATH170', 'Linear Algebra', 'Linear Algebra Textbook', 3, 2);
 
+INSERT INTO Course (course_number, title, textbook, units, dept_number)
+VALUES ('CS201', 'Assembly', 'Assembly Textbook', 3, 1);
+
 /* Section Info */
 INSERT INTO Section (course_number, section_number, classroom, seats, meeting_days, start_time, end_time, professor_ssn)
 VALUES ('CS101', 1, 'Room 101', 30, 'MWF', '08:00:00', '09:00:00', '123456789');
@@ -189,7 +192,7 @@ INSERT INTO Enrollment (student_id, course_number, section_number, grade)
 VALUES (886726533, 'CS131', 2, 'A-');
 
 INSERT INTO Enrollment (student_id, course_number, section_number, grade)
-VALUES (883589011, 'CS131', 2, 'F');
+VALUES (883589011, 'MATH160', 7, 'F');
 
 INSERT INTO Enrollment (student_id, course_number, section_number, grade)
 VALUES (884926776, 'CS101', 1, 'B+');
@@ -213,7 +216,7 @@ INSERT INTO Enrollment (student_id, course_number, section_number, grade)
 VALUES (884936481, 'MATH160', 7, 'A-');
 
 INSERT INTO Enrollment (student_id, course_number, section_number, grade)
-VALUES (884926548, 'CS101', 1, 'A');
+VALUES (884926548, 'MATH160', 7, 'A');
 
 INSERT INTO Enrollment (student_id, course_number, section_number, grade)
 VALUES (887465014, 'CS131', 2, 'C+');
@@ -227,5 +230,4 @@ INSERT INTO Minor (student_id, dept_id) VALUES (884926548, 2);
 INSERT INTO Minor (student_id, dept_id) VALUES (884917512, 1);
 
 INSERT INTO Minor (student_id, dept_id) VALUES (884936481, 2);
-
 
