@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>Student has no courses: " . htmlspecialchars($student_id) . "</p>";
     }
 
-    $result->close();
+    $result->free_result();
     $stmt->close();
     $conn->close();
 }

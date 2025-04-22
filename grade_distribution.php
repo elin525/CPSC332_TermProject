@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>No grades found for Course: " . htmlspecialchars($course_no) .
              ", Section: " . htmlspecialchars($section_no) . "</p>";
     }
-    $result->free();
+    $result->free_result();
     $stmt->close();
     $conn->close();
 }

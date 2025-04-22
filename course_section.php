@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>No sections found for Course: " . htmlspecialchars($course_no) . "</p>";
     }
 
-    $result->free();
+    $result->free_result();
     $stmt->close();
     $conn->close();
 }
