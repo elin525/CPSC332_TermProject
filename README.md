@@ -67,6 +67,8 @@ To meet course guidelines, the project includes:
 - 6 sections
 - 20 enrollment records
 
-[🎥 Webpage Video]([https://www.youtube.com/watch?v=YourVideoID](https://drive.google.com/file/d/1uNA3q2kX29PP0s4VSQzh1CRb6kY_IZx8/view?usp=share_link))
-[🎥 Demo Video]([https://www.youtube.com/watch?v=YourVideoID](https://drive.google.com/file/d/16G0vlePZ0-Q2oj3rt43wGcMhdyshTwOg/view?usp=share_link))
+🎥 [Webpage video](https://drive.google.com/file/d/1uNA3q2kX29PP0s4VSQzh1CRb6kY_IZx8/view?usp=share_link)
+
+🎥 [Demo video](https://drive.google.com/file/d/16G0vlePZ0-Q2oj3rt43wGcMhdyshTwOg/view?usp=share_link)
+
 
